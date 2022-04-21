@@ -6,16 +6,18 @@ The extension is currently awaiting Chrome Store approval, so you must install i
 
 First, you'll need to clone this repo using:
 
-```git clone https://github.com/duncanlutz/adobe_live_reload_assistant.git```.
+```$ git clone https://github.com/duncanlutz/adobe_live_reload_assistant.git```.
 
 After this, you'll need to actually install the extension. You can do so by following the instructions [here.](https://developer.chrome.com/docs/extensions/mv3/getstarted/#unpacked)
 
 ### Usage
 - After installing Chrome extension, navigate to the folder of the extension you'd like to debug.
 
-- Install [Adobe Live Reload](https://github.com/duncanlutz/adobe-live-reload) via npm: `npm i adobe-live-reload`
+- Install [Adobe Live Reload](https://github.com/duncanlutz/adobe-live-reload) via npm:
 
-- Once installed, run `npx adobe-live-reload` in the terminal.
+     `$ npm i adobe-live-reload`
+
+- Once installed, run `$ npx adobe-live-reload` in the terminal.
 
 - Adobe Live Reload should open your current extension in Google Chrome, and you're ready to debug!
 
