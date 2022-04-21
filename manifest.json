@@ -1,0 +1,24 @@
+{
+    "name": "Adobe Live Reload Assistant",
+    "version": "0.2.0",
+    "manifest_version": 3,
+    "description": "Allows Adobe Live Reload to communicate with Adobe DevTools.",
+    "action": {
+        "default_icon": "./lr_inact_128.png",
+        "default_title": "Adobe Live Reload Inactive"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "*://localhost/*"
+            ],
+            "js": [
+                "socketio.js",
+                "script.js"
+            ]
+        }
+    ],
+    "background": {
+        "service_worker": "background.js"
+    }
+}
