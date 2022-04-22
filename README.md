@@ -2,13 +2,7 @@
 This is the repository for the Google Chrome extension of the same name.
 
 ### Installation
-The extension is currently awaiting Chrome Store approval, so you must install it as an unpacked Chrome extension.
-
-First, you'll need to clone this repo using:
-
-```$ git clone https://github.com/duncanlutz/adobe_live_reload_assistant.git```.
-
-After this, you'll need to actually install the extension. You can do so by following the instructions [here.](https://developer.chrome.com/docs/extensions/mv3/getstarted/#unpacked)
+The extension is available via the Google Chrome Web Store, you can find and install it [here.](https://chrome.google.com/webstore/detail/adobe-live-reload-assista/joafdcjjakhckimnpgadofhoeoohllfk)
 
 ### Usage
 - After installing Chrome extension, navigate to the folder of the extension you'd like to debug.
